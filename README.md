@@ -5,20 +5,15 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+# Shiftcare Match Rake Task
 
-* System dependencies
+Assumption arr method will return array specfied in document.
+we are trying search as `Jane`, Searching is case in-sensitive
+- bin/rake shiftcare:matches
 
-* Configuration
 
-* Database creation
+# Shiftcare Duplicate Rake Task
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Assumption arr method will return array specfied in document.
+Printing duplicate emails only, Searching is case in-sensitive
+- bin/rake shiftcare:duplicate
